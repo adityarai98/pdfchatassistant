@@ -21,8 +21,8 @@ public class PdfAssistantConfig {
 
     @Bean
     public AstraDbEmbeddingStore astraDbEmbeddingStore() {
-        String astraToken = "AstraCS:jKArBWHtUcEZjvSojFCDHZZo:852539f382a015e78335c8edef29d62b04e10d764d2d3a81167532ac73461f1d";
-        String databaseId = "8481e8e1-433d-4ca4-b37f-f50f90020120";
+        String astraToken = ;
+        String databaseId = ;
 
         return new AstraDbEmbeddingStore(AstraDbEmbeddingConfiguration
                 .builder()
